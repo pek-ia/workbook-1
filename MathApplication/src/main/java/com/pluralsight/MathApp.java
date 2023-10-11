@@ -54,11 +54,9 @@ public class MathApp {
     }
 
     public static double calculateDistanceBetween(double x2, double x1, double y2, double y1){
-        double distance = 0.0;
 
-        distance =  Math.sqrt( Math.pow(x2 - x1, 2.0) + Math.pow(y2 - y1, 2.0));
+        return  Math.sqrt( Math.pow(x2 - x1, 2.0) + Math.pow(y2 - y1, 2.0));
 
-        return distance;
     }
 
     public static double promptAndReturnDouble(String prompt){
