@@ -50,6 +50,12 @@ public class MathApp {
         String inputString = scanner.nextLine();
         System.out.println(inputString);
 
+        if (inputString.equals("Paul")){
+            System.out.println("Go away, Paul");
+        }
+        else {
+            System.out.println("Hello " + inputString);
+        }
         return;
     }
 
